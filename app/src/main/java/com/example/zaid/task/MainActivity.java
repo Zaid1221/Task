@@ -41,6 +41,12 @@ public class MainActivity extends AppCompatActivity {
             this.startActivity(insertIntent);
             return true;
         }
+        else if(id == R.id.action_delete)
+        {
+            Intent removeIntent = new Intent(this, RemoveActivity.class);
+            this.startActivity(removeIntent);
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
     }
