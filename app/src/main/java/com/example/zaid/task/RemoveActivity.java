@@ -77,4 +77,4 @@ public class RemoveActivity extends AppCompatActivity {
         }
     }
 }
-}
+
